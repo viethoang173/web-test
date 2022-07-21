@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-xl">
+            <div class="container-xxl">
+                <a class="navbar-brand" href="index.html">
+                    <img src="img/Logo-toma.png" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offCanvasMenu"
+                    aria-controls="offCanvasMenu" aria-expanded="false">
+                    <i class="bi bi-list"></i>
+                </button>
+                <div class="offcanvas offcanvas-start" tabindex="-1" id="offCanvasMenu" aria-labelledby="offCanvasMenu">
+                    <div class="navbar-collapse">
+                        <i class="bi bi-x d-block d-xl-none closeMenu" data-bs-dismiss="offcanvas"></i>
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 hoverBordered">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="index.html">HOME</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    PRODUCTS
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="about.html#aboutOverview">DRIED FOODS</a></li>
+                                    <li><a class="dropdown-item" href="about.html#aboutOverview">Tầm nhìn</a></li>
+                                    <li><a class="dropdown-item" href="about.html#aboutOverview">Sứ mệnh</a></li>
+                                    <li><a class="dropdown-item" href="about.html#aboutAdvantage">Lợi thế cạnh
+                                            tranh</a></li>
+                                    <li><a class="dropdown-item" href="about.html#aboutValue">Giá trị cốt lõi</a>
+                                    </li>
+                                    <li><a class="dropdown-item" href="about.html#aboutOurTeam">Đội ngũ công
+                                            nghệ</a></li>
+                                    <li><a class="dropdown-item" href="about.html#aboutPrograming">Nền tảng công
+                                            nghệ</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    DRIED FOODS
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="blockchain.html">Blockchain</a></li>
+                                    <li><a class="dropdown-item" href="ai-bigdata.html">AI, Big Data</a></li>
+                                    <li><a class="dropdown-item" href="metaverse.html">AR, VR, MR, XR</a></li>
+                                    <li><a class="dropdown-item" href="iot.html">IOT, Automation</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    PAGES
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" rel="nofollow" href="https://www.hyperaschain.com/"
+                                            target="_blank">Hyperas</a></li>
+                                    <li><a class="dropdown-item" rel="nofollow" href="https://www.pindias.com/"
+                                            target="_blank">Pindias</a></li>
+                                    <li><a class="dropdown-item" rel="nofollow" href="https://www.divega.com/"
+                                            target="_blank">Divega</a></li>
+                                    <li><a class="dropdown-item" rel="nofollow" href="https://www.rapitalbank.com/"
+                                            target="_blank">Rapital Bank</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    CONTACT US
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="report-internal.html">Báo cáo nội bộ</a></li>
+                                    <li><a class="dropdown-item" href="report-annual.html">Báo cáo tài chính hàng
+                                            năm</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div id="homePage">
+        <section class="banner">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="img/banner-about.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="img/banner-about.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="img/banner-about.jpg" alt=""></div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+            <div class="container-xxl body-banner">
+                <div class="intro text-white">
+                    <h1 class="title mb-5">Buy all best <strong>Oraginic</strong>
+                        <br>
+                        Products for lift <strong>healthy</strong>
+                    </h1>
+                    <p class="text mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <div>
+                        <a class="btn btn-view" href="">GET INFO</a>
+                        <a class="btn btn-view" href="">READ MORE</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="shop-now position-relative">
+            <div class="container-xxl">
+                <div class="row">
+                    <div class="col-4">
+                        <div class="card card-bo d-flex flex-row p-4">
+                            <a href=""><img src="img/nach.png" alt=""></a>
+                            <div class="ms-4">
+                                <h2 class="card-title">BOKCHOY BOK</h2>
+                                <p>Vegetable</p>
+                                <a class="btn btn-view" href="">SHOP NOW</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="card card-po d-flex flex-row p-4">
+                            <a href=""><img src="img/nach.png" alt=""></a>
+                            <div class="ms-4">
+                                <h2 class="card-title">Potato</h2>
+                                <p>Vegetable</p>
+                                <a class="btn btn-view" href="">SHOP NOW</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="card card-to d-flex flex-row p-4">
+                            <a href=""><img src="img/nach.png" alt=""></a>
+                            <div class="ms-4">
+                                <h2 class="card-title">Tomato</h2>
+                                <p>Vegetable</p>
+                                <a class="btn btn-view" href="">SHOP NOW</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="products">
+            <div class="container-xxl">
+                <div class="text-center mb-4">
+                    <h3 class="mb-3">Featured Products</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt sed do
+                        eiusmod temporut magna aliqua.</p>
+                </div>
+                <div class="row">
+                    <div class="col-lg-3">
+                        <div class="card">
+                            <div class="px-2 py-3">
+                                <a class="position-relative w-100" href="">
+                                    <img class="w-100 position-relative" src="img/project-divega.jpg" alt="">
+                                    <img class="img-tym" src="img/tym.png" alt="">
+                                </a>
+                                <div class="text-body text-center aling-item-center">
+                                    <h6 class="pt-3">Organic Pee</h6>
+                                    <p><b class="px-2">$11/kg</b></p>
+                                    <a class="btn btn-view btn-hidden" href="">Add to card</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="card">
+                            <div class="px-2 py-3">
+                                <a class="position-relative w-100" href="">
+                                    <img class="w-100 position-relative" src="img/project-divega.jpg" alt="">
+                                    <img class="img-tym" src="img/tym.png" alt="">
+                                </a>
+                                <div class="text-body text-center aling-item-center">
+                                    <h6 class="pt-3">Organic Pee</h6>
+                                    <p><b class="px-2">$11/kg</b></p>
+                                    <a class="btn btn-view btn-hidden" href="">Add to card</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="card">
+                            <div class="px-2 py-3">
+                                <a class="position-relative w-100" href="">
+                                    <img class="w-100 position-relative" src="img/project-divega.jpg" alt="">
+                                    <img class="img-tym" src="img/tym.png" alt="">
+                                </a>
+                                <div class="text-body text-center aling-item-center">
+                                    <h6 class="pt-3">Organic Pee</h6>
+                                    <p><b class="px-2">$11/kg</b></p>
+                                    <a class="btn btn-view btn-hidden" href="">Add to card</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="card">
+                            <div class="px-2 py-3">
+                                <a class="position-relative w-100" href="">
+                                    <img class="w-100 position-relative" src="img/project-divega.jpg" alt="">
+                                    <img class="img-tym" src="img/tym.png" alt="">
+                                </a>
+                                <div class="text-body text-center aling-item-center">
+                                    <h6 class="pt-3">Organic Pee</h6>
+                                    <p><b class="px-2">$11/kg</b></p>
+                                    <a class="btn btn-view btn-hidden" href="">Add to card</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="card">
+                            <div class="px-2 py-3">
+                                <a class="position-relative w-100" href="">
+                                    <img class="w-100 position-relative" src="img/project-divega.jpg" alt="">
+                                    <img class="img-tym" src="img/tym.png" alt="">
+                                </a>
+                                <div class="text-body text-center aling-item-center">
+                                    <h6 class="pt-3">Organic Pee</h6>
+                                    <p><b class="px-2">$11/kg</b></p>
+                                    <a class="btn btn-view btn-hidden" href="">Add to card</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="card">
+                            <div class="px-2 py-3">
+                                <a class="position-relative w-100" href="">
+                                    <img class="w-100 position-relative" src="img/project-divega.jpg" alt="">
+                                    <img class="img-tym" src="img/tym.png" alt="">
+                                </a>
+                                <div class="text-body text-center aling-item-center">
+                                    <h6 class="pt-3">Organic Pee</h6>
+                                    <p><b class="px-2">$11/kg</b></p>
+                                    <a class="btn btn-view btn-hidden" href="">Add to card</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="card">
+                            <div class="px-2 py-3">
+                                <a class="position-relative w-100" href="">
+                                    <img class="w-100 position-relative" src="img/project-divega.jpg" alt="">
+                                    <img class="img-tym" src="img/tym.png" alt="">
+                                </a>
+                                <div class="text-body text-center aling-item-center">
+                                    <h6 class="pt-3">Organic Pee</h6>
+                                    <p><b class="px-2">$11/kg</b></p>
+                                    <a class="btn btn-view btn-hidden" href="">Add to card</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="card">
+                            <div class="px-2 py-3">
+                                <a class="position-relative w-100" href="">
+                                    <img class="w-100 position-relative" src="img/project-divega.jpg" alt="">
+                                    <img class="img-tym" src="img/tym.png" alt="">
+                                </a>
+                                <div class="text-body text-center aling-item-center">
+                                    <h6 class="pt-3">Organic Pee</h6>
+                                    <p><b class="px-2">$11/kg</b></p>
+                                    <a class="btn btn-view btn-hidden" href="">Add to card</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section class="support">
+            <div class="container-xxl">
+                <div class="row g-0">
+                    <div class="col-lg-3 d-flex justify-content-center">
+                        <img src="img/free-ship.png" alt="">
+                    </div>
+                    <div class="col-lg-3 d-flex justify-content-center">
+                        <img src="img/money-re.png" alt="">
+                    </div>
+                    <div class="col-lg-3 d-flex justify-content-center">
+                        <img src="img/support-ol.png" alt="">
+                    </div>
+                    <div class="col-lg-3 d-flex justify-content-center">
+                        <img src="img/gift.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="products">
+            <div class="container-xxl">
+                <div class="text-center mb-4">
+                    <h3 class="mb-3">Lastest Products</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt sed do
+                        eiusmod temporut magna aliqua.</p>
+                </div>
+                <div class="row">
+                    <div class="col-lg-3">
+                        <div class="card">
+                            <div class="px-2 py-3">
+                                <a class="position-relative w-100" href="">
+                                    <img class="w-100 position-relative" src="img/project-divega.jpg" alt="">
+                                    <img class="img-tym" src="img/tym.png" alt="">
+                                </a>
+                                <div class="text-body text-center aling-item-center">
+                                    <h6 class="pt-3">Organic Pee</h6>
+                                    <p><b class="px-2">$11/kg</b></p>
+                                    <a class="btn btn-view btn-hidden" href="">Add to card</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="card">
+                            <div class="px-2 py-3">
+                                <a class="position-relative w-100" href="">
+                                    <img class="w-100 position-relative" src="img/project-divega.jpg" alt="">
+                                    <img class="img-tym" src="img/tym.png" alt="">
+                                </a>
+                                <div class="text-body text-center aling-item-center">
+                                    <h6 class="pt-3">Organic Pee</h6>
+                                    <p><b class="px-2">$11/kg</b></p>
+                                    <a class="btn btn-view btn-hidden" href="">Add to card</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="card">
+                            <div class="px-2 py-3">
+                                <a class="position-relative w-100" href="">
+                                    <img class="w-100 position-relative" src="img/project-divega.jpg" alt="">
+                                    <img class="img-tym" src="img/tym.png" alt="">
+                                </a>
+                                <div class="text-body text-center aling-item-center">
+                                    <h6 class="pt-3">Organic Pee</h6>
+                                    <p><b class="px-2">$11/kg</b></p>
+                                    <a class="btn btn-view btn-hidden" href="">Add to card</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="card">
+                            <div class="px-2 py-3">
+                                <a class="position-relative w-100" href="">
+                                    <img class="w-100 position-relative" src="img/project-divega.jpg" alt="">
+                                    <img class="img-tym" src="img/tym.png" alt="">
+                                </a>
+                                <div class="text-body text-center aling-item-center">
+                                    <h6 class="pt-3">Organic Pee</h6>
+                                    <p><b class="px-2">$11/kg</b></p>
+                                    <a class="btn btn-view btn-hidden" href="">Add to card</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="card">
+                            <div class="px-2 py-3">
+                                <a class="position-relative w-100" href="">
+                                    <img class="w-100 position-relative" src="img/project-divega.jpg" alt="">
+                                    <img class="img-tym" src="img/tym.png" alt="">
+                                </a>
+                                <div class="text-body text-center aling-item-center">
+                                    <h6 class="pt-3">Organic Pee</h6>
+                                    <p><b class="px-2">$11/kg</b></p>
+                                    <a class="btn btn-view btn-hidden" href="">Add to card</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="card">
+                            <div class="px-2 py-3">
+                                <a class="position-relative w-100" href="">
+                                    <img class="w-100 position-relative" src="img/project-divega.jpg" alt="">
+                                    <img class="img-tym" src="img/tym.png" alt="">
+                                </a>
+                                <div class="text-body text-center aling-item-center">
+                                    <h6 class="pt-3">Organic Pee</h6>
+                                    <p><b class="px-2">$11/kg</b></p>
+                                    <a class="btn btn-view btn-hidden" href="">Add to card</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="card">
+                            <div class="px-2 py-3">
+                                <a class="position-relative w-100" href="">
+                                    <img class="w-100 position-relative" src="img/project-divega.jpg" alt="">
+                                    <img class="img-tym" src="img/tym.png" alt="">
+                                </a>
+                                <div class="text-body text-center aling-item-center">
+                                    <h6 class="pt-3">Organic Pee</h6>
+                                    <p><b class="px-2">$11/kg</b></p>
+                                    <a class="btn btn-view btn-hidden" href="">Add to card</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="card">
+                            <div class="px-2 py-3">
+                                <a class="position-relative w-100" href="">
+                                    <img class="w-100 position-relative" src="img/project-divega.jpg" alt="">
+                                    <img class="img-tym" src="img/tym.png" alt="">
+                                </a>
+                                <div class="text-body text-center aling-item-center">
+                                    <h6 class="pt-3">Organic Pee</h6>
+                                    <p><b class="px-2">$11/kg</b></p>
+                                    <a class="btn btn-view btn-hidden" href="">Add to card</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section class="ourFarmer">
+            <div class="container-xxl">
+                <div class="text-center mb-4">
+                    <h3 class="mb-3">Our Farmers</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt sed do
+                        eiusmod temporut magna aliqua.</p>
+                </div>
+                <div class="swiper mySwiper1">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img src="img/ai-img.png" alt=""></div>
+                        <div class="swiper-slide"><img src="img/ai-img.png" alt=""></div>
+                        <div class="swiper-slide"><img src="img/ai-img.png" alt=""></div>
+                        <div class="swiper-slide"><img src="img/ai-img.png" alt=""></div>
+                        <div class="swiper-slide"><img src="img/ai-img.png" alt=""></div>
+                        <div class="swiper-slide"><img src="img/ai-img.png" alt=""></div>
+                        <div class="swiper-slide"><img src="img/ai-img.png" alt=""></div>
+                        <div class="swiper-slide"><img src="img/ai-img.png" alt=""></div>
+                        <div class="swiper-slide"><img src="img/ai-img.png" alt=""></div>
+                        <div class="swiper-slide"><img src="img/ai-img.png" alt=""></div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </section>
+        <section class="ourFarmer">
+            <div class="container-xxl">
+                <div class="text-center mb-4">
+                    <h3 class="mb-3">Lastest From Blog</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt sed do
+                        eiusmod temporut magna aliqua.</p>
+                </div>
+                <div class="swiper mySwiper2">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="position-relative">
+                                <img src="img/ai-img.png" alt="">
+                                <div class="swiper2-text d-flex flex-column justify-content-between">
+                                    <p>27 March 2018 </p>
+                                    <div>
+                                        <h6>Personalized
+                                            and targetes conversations</h6>
+                                        <a href="">Read more</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide"><img src="img/ai-img.png" alt=""></div>
+                        <div class="swiper-slide"><img src="img/ai-img.png" alt=""></div>
+                        <div class="swiper-slide"><img src="img/ai-img.png" alt=""></div>
+                        <div class="swiper-slide"><img src="img/ai-img.png" alt=""></div>
+                        <div class="swiper-slide"><img src="img/ai-img.png" alt=""></div>
+                        <div class="swiper-slide"><img src="img/ai-img.png" alt=""></div>
+                        <div class="swiper-slide"><img src="img/ai-img.png" alt=""></div>
+                        <div class="swiper-slide"><img src="img/ai-img.png" alt=""></div>
+                        <div class="swiper-slide"><img src="img/ai-img.png" alt=""></div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <div class="container-xxl">
+            <div class="row mb-4">
+                <div class="col-lg col-md-4 col-6 d-flex justify-content-lg-center">
+                    <div>
+                        <h6 class="title">CONTACTS</h6>
+                        <ul class="list-unstyled">
+                            <li class="d-flex">
+                                <span class="firstLetter"></span>
+                                <div>Quận Long Biên, Thành phố Hà Nội, Việt Nam</div>
+                            </li>
+                            <li class="d-flex">
+                                <span class="firstLetter"></span>
+                                <div>1900633815</div>
+                            </li>
+                            <li class="d-flex">
+                                <span class="firstLetter"></span>
+                                <div><a href="mailto:info@metawaytech.com">info@metawaytech.com</a></div>
+                            </li>
+                            <li class="d-flex">
+                                <span class="firstLetter"></span>
+                                <div>www.metawaytech.com</div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg col-md-4 col-6 d-flex justify-content-lg-center">
+                    <div>
+                        <h6 class="title">OUR COMPANY</h6>
+                        <ul class="list-unstyled">
+                            <li><a href="blockchain.html">Search Page</a></li>
+                            <li><a href="ai-bigdata.html">About Us</a></li>
+                            <li><a href="metaverse.html">Contact Us</a></li>
+                            <li><a href="iot.html">Collections</a></li>
+                            <li><a href="iot.html">Catalog page</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg col-md-4 col-6 d-flex justify-content-lg-center">
+                    <div>
+                        <h6 class="title">INFORMATIONS</h6>
+                        <ul class="list-unstyled">
+                            <li><a href="blockchain.html">Search Page</a></li>
+                            <li><a href="ai-bigdata.html">About Us</a></li>
+                            <li><a href="metaverse.html">Contact Us</a></li>
+                            <li><a href="iot.html">Collections</a></li>
+                            <li><a href="iot.html">Catalog page</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg col-md-4 col-6 d-flex justify-content-lg-center">
+                    <div>
+                        <h6 class="title">CATEGORIES</h6>
+                        <ul class="list-unstyled">
+                            <li><a href="blockchain.html">Fruits</a></li>
+                            <li><a href="ai-bigdata.html">Juice</a></li>
+                            <li><a href="metaverse.html">Vegetables</a></li>
+                            <li><a href="iot.html">Other Products</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg col-md-4 col-6 d-flex justify-content-lg-center">
+                    <div>
+                        <h6 class="title">@OMATO MARKET</h6>
+                        <div class="row g-0">
+                            <div class="col-4 mb-1"><img src="img/77x77-ft.jpg" alt=""></div>
+                            <div class="col-4 mb-1"><img src="img/77x77-ft.jpg" alt=""></div>
+                            <div class="col-4 mb-1"><img src="img/77x77-ft.jpg" alt=""></div>
+                            <div class="col-4 mb-1"><img src="img/77x77-ft.jpg" alt=""></div>
+                            <div class="col-4 mb-1"><img src="img/77x77-ft.jpg" alt=""></div>
+                            <div class="col-4 mb-1"><img src="img/77x77-ft.jpg" alt=""></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="coppy">
+            <div class="container-xxl">
+                <div class="text-center py-4 text-white">
+                    <p class="m-0">2020 all rights reserved.Power by Madbrains</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    </div>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper Banner-->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            direction: "vertical",
+            slidesPerView: 1,
+            spaceBetween: 30,
+            mousewheel: true,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+        });
+    </script>
+    <!-- Initialize Swiper Our Farmer-->
+    <script>
+        var swiper = new Swiper(".mySwiper1", {
+            slidesPerView: 1,
+            spaceBetween: 10,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            breakpoints: {
+                "@0.00": {
+                    slidesPerView: 1,
+                    spaceBetween: 10,
+                },
+                "@0.75": {
+                    slidesPerView: 2,
+                    spaceBetween: 20,
+                },
+                "@1.00": {
+                    slidesPerView: 3,
+                    spaceBetween: 40,
+                },
+                "@1.50": {
+                    slidesPerView: 4,
+                    spaceBetween: 50,
+                },
+            },
+        });
+    </script>
+    </script>
+    <!-- Initialize Swiper Blog-->
+    <script>
+        var swiper = new Swiper(".mySwiper2", {
+            slidesPerView: 1,
+            spaceBetween: 10,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            breakpoints: {
+                "@0.00": {
+                    slidesPerView: 1,
+                    spaceBetween: 10,
+                },
+                "@0.75": {
+                    slidesPerView: 2,
+                    spaceBetween: 20,
+                },
+                "@1.00": {
+                    slidesPerView: 3,
+                    spaceBetween: 40,
+                },
+            },
+        });
+    </script>
+</body>
+
+</html>
